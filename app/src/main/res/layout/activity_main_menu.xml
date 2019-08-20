@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="16sp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="16sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logo_hitam"
+        android:layout_marginTop="30dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        tools:context=".GridLayoutActivity"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img_gomart"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/menu_gomart"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/img_goride"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/menu_goride"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/img_gofood"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/menu_gofood"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/img_gosend"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/menu_gosend"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </GridLayout>
+
+</LinearLayout>
